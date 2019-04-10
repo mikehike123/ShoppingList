@@ -12,6 +12,7 @@ class ListItem{
     public $userID;
     public $description;
     public $created;
+    public $completed;
  
     // constructor with $db as database connection
     public function __construct($db){
