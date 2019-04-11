@@ -41,7 +41,7 @@ if($num>0){
             "userID" => $userID,
             "listID" => $listID,
             "description" => html_entity_decode($description),
-            "completed" => $completed,
+            "completed" => ($completed=='1'?True:False),
         );
  
         array_push($listItems_arr["records"], $list_item);
